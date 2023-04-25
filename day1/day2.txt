@@ -1,0 +1,200 @@
+DNS서버를 만들면 도메인을 구매할 수 있다
+
+서버만들어서 생성 가능
+
+DNS ( domain name server )
+
+내부에서 인터넷망을 구성해서 하게만든 인트라넷 ( 생태계가 따로 있음 )
+
+HTTP -> 80번 포트가 기본
+HTTPS -> 443번 포트가 기본
+시큐리티차이
+
+www.naver.com
+23.130.195.95
+
+https://ko.wikipedia.org/wiki/TCP/UDP%EC%9D%98_%ED%8F%AC%ED%8A%B8_%EB%AA%A9%EB%A1%9D
+
+0번 ~ 1023번: 잘 알려진 포트 (well-known port)
+1024번 ~ 49151번: 등록된 포트 (registered port)
+49152번 ~ 65535번: 동적 포트 (dynamic port)
+
+www.naver.com 은 주소가 아니라 이름이다
+
+클라이언트 -> 공유 or 스위치 -> 라우터 -> DNS
+DNS까지가면 IP가 짝을이루어서 (맵핑) 되어있음
+그걸 다시 클라이언트로 줌
+
+그리고 그렇게 받은 IP로 접속함
+
+NAT - DDX(디도스방어하는 장비) - IPS - FW (보안장비) - APP(Django...)
+						 		 -WEB(아파치, 엔진엑스...)
+								 -DB(postgresql, mysql...)
+
+개발하면 무조건 해킹받음
+
+디도스 ? 질문을 다 보내는거 (한번에 공격?)
+디나이 오브 서비스 
+F5여러번 누르는것도 여러번하면 해킹임
+임계치 기반 방어 (5번정도 누를거다)
+
+DDos (분산 디도스 공격)
+DOS - 한사람도 공격가능
+DDOS - 분산된 공격
+
+
+NAT : IP 통합
+
+
+DDX : DDos 방어
+IPS : 행위 기반 방어 - 공인인증서 차단
+FW : IP, Port 기반 방어
+
+알아야하는 이유
+협조공문을 보내야 한다
+몇번 아이피를 쓰고있다. 포트와 아이피를 열어달라 요청하기 때문
+
+DDos 공격은 좀비피시로 함
+좀비피시 만들어 지는것
+1. 인가되지 않은 백신
+2. 다운로드
+
+DB에 사용자 아이디 패스워드 그냥 저장하면 안된다!
+
+서비스 개발 (투입인력)
+
+5,000만원 - 웹 서비스 1개 ( 이것도 비싼게 아님 )
+
+기획자
+프론트엔드 개발자
+백엔드 개발자
+PM
+
+보통 억 단위
+
+자문을 하게되면 -> 해킹공격부터 한다
+
+모든 단축키 ctrl + k + s
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+</head>
+<body>
+    <!-- emmet 문법 : google 검색 emmet cheat sheet pdf -->
+    <!-- https://docs.emmet.io/cheat-sheet/ -->
+    <!-- alt + w : 태그로 감싸기(익스텐션 설치하셔야 합니다.) -->
+    world 
+
+    h1
+</body>
+</html>
+
+github 가 먼저 있는 이유
+오늘부터 잔디를 심으려고
+
+pull add commit push
+
+
+조급함, 두려움
+
+다른 세계인 것 같은데?
+내가 할 수 있을까?
+오늘 너무 빨랐다. ㅜㅜ
+영타 350타
+
+이정도는 알아야합니다 -> 복습한번 해보죠
+
+연봉 최소 3200
+정상적인 진도로 갔을 때
+이미 6천대 돌파한 사람도 있고
+처음하는 사람도 있고
+
+우리의 목표는 3200으로 맞춰야 한다
+
+===
+외워야 할 것 and 필수 설치
+
+형식			명칭		비유
+www.naver.com URL	도메인		이름
+105.209.222.141	IP		주소
+22, 23, 28 ,443..	PORT		문
+
+주소를 찾아가는 공간을 꾸며주는 사람 = 우리
+
+https://youtu.be/Xs5aM9FYuic
+
+* 단축키
+Ctrl + N
+Ctrl + S
+
+* emmet
+h1
+h2
+h3
+h4
+h5
+h6 + tab 이 형식만 아셔도 수업하는데 지장이 있지 않습니다
+
+* 필수 설치 익스텐션
+live server
+
+* 리눅스
+리눅스 마스터 2급
+ls : 폴더, 파일 목록
+mkdir : 폴더 만드는 것
+touch : 파일 생성하는 것
+vi : 텍스트 편집기
+cd (change directory) : 폴더 이동
+
+*Git과 Github
+Git : 분산 버전관리 시스템
+GitHub : 코드를 관리할 수 있는 git기반의 웹서비스
+
+git pull
+git add .  (.은 현재 폴더의 모든 것, ..은 상위폴더)
+git commit
+git push
+
+
+* 확장자란 무엇인가?
+파일을 실행시킬 기본 프로그램 명시 ( 그 파일을 어떤 프로그램으로 열어줄지 )
+
+
+* 클라우드 환경?
+빌려쓰는 환경
+
+* 마크다운? 마크업? - 설명으로 많이 씀
+마크다운(.md)의 대제목, 중제목 - 주로 설명을 위한 문서
+# 제목1
+## 제목2
+
+마크업(.html)의 대제목, 중제목 - 웹에서 쓰는 언어
+<h1>제목1</h1>
+<h2>제목2</h2>
+
+
+레파지토리에 있는걸 전세계 사람들에게 알리는거
+setting - page - brach (main) - save
+
+--
+
+* github
+New - Repo 이름과 설명, readme file 추가 후 create repo -> add files
+New - Repo 이름과 설명, readme file 추가 후 create repo -> '.' 눌러서 VSC에서 추가
+
+* github 배포방법은 페이지 참조
+
+* github 명령어
+git clone repo주소 .	: 현재폴더에 repo를 복사해 놓습니다. 최초에 한 번 실행합니다.
+git pull 			: github에서 코드를 내려받는다.
+git add . 			: 내 파일을 stage에 올려놓는다.
+git commit -m '메세지'	: '메시지'를 메세지로 새로운 버전을 만듭니다.
+git push 			: 만든 버전을 GitHub에 올립니다.
+
+
