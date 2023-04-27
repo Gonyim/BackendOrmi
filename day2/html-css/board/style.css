@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.tr_01 {
+  background: gray;
+}
+
+.tr_02 {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+}
