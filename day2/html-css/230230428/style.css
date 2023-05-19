@@ -6,35 +6,10 @@ ul {
   padding: 0;
   margin: 0;
 }
-/* layout */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20px;
-  height: 80px;
-  border-bottom: 1px solid #ddd;
-}
 
-.header-click a,
-.header-click button {
-  padding: 10px;
-  margin-left: 10px;
-  color: black;
-  text-decoration: none;
-}
-
-.header-click button {
-  font: inherit;
-  border: 0;
-  background: none;
-}
-
-/* 로그인 */
 .container {
   width: 360px;
   margin: 40px auto;
-  font-size: 10px;
 }
 .title,
 .description {
@@ -81,14 +56,3 @@ form > div {
 .field {
   border: 0;
 }
-.field ul {
-  list-style: none;
-  /* 2. flex */
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* .field ul li {
-  1.가로배치
-  
-} */

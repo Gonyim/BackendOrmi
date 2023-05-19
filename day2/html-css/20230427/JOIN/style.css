@@ -1,0 +1,59 @@
+body,
+h1,
+p {
+  margin: 0;
+}
+
+/* layout */
+.header {
+  background-color: skyblue;
+}
+
+.cont {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.title,
+.descrip {
+  text-align: center;
+  margin: 20px;
+}
+
+.cont div {
+  text-align: center;
+}
+
+.label-width {
+  width: 90px;
+  display: inline-block;
+  text-align: left;
+}
+
+[type="text"],
+[type="password"],
+[type="email"] {
+  margin: 5px 0;
+  width: 290px;
+  height: 20px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+}
+
+[type="checkbox"] {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+[type="radio"] {
+  margin-left: 35px;
+}
+
+.btn_01 {
+  margin-top: 20px;
+  width: 100%;
+  background-color: royalblue;
+  color: white;
+  height: 40px;
+  border: solid 1px #ccc;
+}
